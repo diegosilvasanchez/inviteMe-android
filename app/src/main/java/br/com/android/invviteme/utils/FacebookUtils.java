@@ -1,11 +1,12 @@
 package br.com.android.invviteme.utils;
 
+import com.facebook.AccessToken;
+import com.google.firebase.auth.FirebaseUser;
+
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by Eric Rosa on 08/05/2016.
- */
+
 public class FacebookUtils {
 
     public static List<String> getPermissionsReadFacebook(){
@@ -20,6 +21,10 @@ public class FacebookUtils {
         List<String> permissions = new ArrayList<>();
         permissions.add("publish_actions");
         return permissions;
+    }
+
+    public static boolean isLoggedFacebook(List<String> providers){
+        return providers != null && providers.get(0).contains("facebook") && AccessToken.getCurrentAccessToken() != null;
     }
 
 }

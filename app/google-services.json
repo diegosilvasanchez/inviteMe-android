@@ -1,0 +1,50 @@
+{
+  "project_info": {
+    "project_number": "348859542503",
+    "firebase_url": "https://invviteme.firebaseio.com",
+    "project_id": "project-2455091551987748650",
+    "storage_bucket": "project-2455091551987748650.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:348859542503:android:9173bf99160a1195",
+        "android_client_info": {
+          "package_name": "br.com.android.invviteme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "348859542503-huclfclheeu7rqfrs0s6bt4u7kn8ia6t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.android.invviteme",
+            "certificate_hash": "DF71DCCE21276118631A651075D7C7BAACD3F345"
+          }
+        },
+        {
+          "client_id": "348859542503-9qq3111vong7no20be0abp5gkdm3qr8h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBywpiBa-P0u78dB3FCdqI3bpZch-qaLoQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

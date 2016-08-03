@@ -1,9 +1,12 @@
 <resources>
-    <!-- Nome do aplicativo -->
+
     <string name="app_name">Invvite.Me</string>
 
     <!-- IDs para os SDKs -->
     <string name="facebook_app_id">1031292770291208</string>
+
+    <!-- String relacionada a tela SplashActivity -->
+    <string name="title_activity_splash">SplashActivity</string>
 
     <!-- Strings relacionadas a tela de login -->
     <string name="prompt_email">E-mail</string>
@@ -14,22 +17,36 @@
     <string name="or">OU</string>
     <string name="without_account">Não tem conta?</string>
     <string name="register">Cadastre-se</string>
+    <string name="error_sing_in">Ocorreu um erro na autenticação</string>
+    <string name="check_email_confirmation">Check seu email para confirmar sua conta</string>
 
     <!-- Strings relacionadas a RegisterActivity-->
     <string name="title_activity_register">Cadastro</string>
     <string name="last_name">Sobrenome</string>
-    <string name="firt_name">Nome</string>
+    <string name="first_name">Nome</string>
     <string name="prompt_confirm_password">Confirmar a Senha</string>
     <string name="birthday">Data de Nascimento</string>
+    <string name="phone">Telefone</string>
     <string name="male">Masculino</string>
     <string name="female">Feminino</string>
     <string name="action_sign_up">Cadastrar</string>
-
-    <!-- String relacionada a tela SplashActivity -->
-    <string name="title_activity_splash">SplashActivity</string>
+    <string name="success_user_register">Usuário cadastrado com sucesso</string>
+    <string name="send_email_confirmation">Email de confirmação enviado</string>
+    <string name="email_is_already">Email já usado por outra conta</string>
 
     <!-- Strings relacionadas a MainActivity -->
     <string name="title_activity_main">Eventos</string>
+    <string name="logout_message_dialog">Saindo…</string>
+    <string name="title_alert_logout">Deseja realmente sair?</string>
+    <string name="positive_button">Sim</string>
+    <string name="negative_button">Não</string>
+
+    <!-- Strings relacionadas a tela de eventos proximos a mim-->
+    <string name="title_activity_events_near_me">Eventos Próximos</string>
+
+    <!-- Strings relacionadas a tela de Perfil-->
+    <string name="change_password">Mudar senha</string>
+    <string name="edit">Editar</string>
 
     <!-- Strings de Erro -->
     <string name="error_invalid_email">Email Inválido</string>
@@ -40,7 +57,8 @@
     <string name="error_password_different">A senha e confirmação da senha devem ser iguais</string>
 
     <!-- Strings de Permissão -->
-    <string name="permission_rationale">"Permissão é necessário, para autocompletar os emails"</string>
+    <string name="permission_rationale">"Permissão é necessário para autocompletar os emails"</string>
+    <string name="permission_rationale_map">"Necessário permissão para acessar sua localização"</string>
 
     <!-- Usar essa string quando requerer um string text mas não ter texto em si -->
     <string name="string_null" />
@@ -55,6 +73,17 @@
     <string name="events_near_me">Eventos Próximos</string>
     <string name="home">Home</string>
     <string name="logout">Sair</string>
-    <string name="detail">Detalhar</string>
+    <string name="detail">+ Detalhar</string>
+
+    <!-- Strings relacionadas a DetailEventActivity -->
+    <string name="title_activity_detail_event">Detalhe</string>
+
+    <!-- Strings de menu -->
+    <string name="view_photo">Ver foto</string>
+    <string name="import_photo_facebook">Importar foto do facebook</string>
+    <string name="import_photo_album">Escolher foto da galeria</string>
+
+
+    <string name="make_login">Por favor, entre no sistema</string>
 
 </resources>
